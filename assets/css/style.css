@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
+.text-red{color: #FF173B !important;}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -213,10 +213,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px;
   border-radius: 5px;
   transition: 0.5s;
-  color: #161C2D;
+  color: #161C2D;letter-spacing: initial;
   background: #fff;margin-left: 25px;
 }
-#footer a.btn i{color: rgba(255, 50, 19, 1);
+#footer a.btn i{color: rgb(255 23 59);
   font-size: 28px;
   float: left;
   margin:0 10px;}
@@ -733,7 +733,8 @@ section {
 #redbox .redbox-inner{background-color: #FF3213;position: relative;color: white; padding: 20px 10px; border-radius: 5px;}
 #redbox .redbox-inner p{font-size: 15px; font-weight: 300;}
 #redbox .redbox-inner h1{font-size: 72px; font-weight: bold;}
-#redbox .redbox-inner img.img-fluid.animated.rocket {
+#redbox .redbox-inner img.img-fluid.animated.rocket,
+#redbox .redbox-inner svg.rocket {
   position: absolute;
   z-index: 11;
   right: -200px;
@@ -926,7 +927,8 @@ section#services:before {
     display: block;
     align-items: center;
     padding: 30px 20px 30px 20px;
-    background: #FF3213;
+    background: radial-gradient(rgba(255,0,0,0.91) 0%, rgba(255,21,61,0.91) 100%);
+ 
     transition: ease-in-out 0.3s;
     text-align: center;
     color: white;
@@ -1232,7 +1234,8 @@ font-size: 14px;font-family: 'DM Sans';text-align: center;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgba(255, 50, 19, 1);
+  background: radial-gradient(rgba(255,0,0,0.91) 0%, rgba(255,21,61,0.91) 100%);
+
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
